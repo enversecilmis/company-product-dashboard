@@ -17,7 +17,7 @@ npm run dev
 
 ## Possible Issues
 
-If it doesn't work please check `settings.ts` file in both and make sure `CLIENT_URL` and `SERVER_URL` values are correct.
+If it doesn't work please check config files file in both and make sure `CLIENT_URL` and `SERVER_URL` values are correct.
 
 
 ## Used Packages
