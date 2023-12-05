@@ -36,5 +36,3 @@ If it doesn't work please check `settings.ts` file in both and make sure `CLIENT
 - `@tanstack/react-query`: For async state.
 - `antd`: For a design system.
 - `tailwindcss`: For more convenient "inline" styles.
-
-Note: I know tailwind can be considered a whole design system and its usage with antd might not make sense (not sure though). I just disabled tailwinds css reset and it was fine.
