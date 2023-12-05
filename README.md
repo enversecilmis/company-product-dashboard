@@ -1,5 +1,4 @@
-#### Enver Seçilmiş
-# Ete Technologies Interview Assignment
+# Interview Assignment - Company Product Dashboard
 
 I built the project in two parts:
 
