@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 59709
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 4397
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 30798
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 6698
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 57010
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 63170
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 4102
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 37016
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 59651
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 39854
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 52591
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 60111
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 9215
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 21689
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 13442
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 13600
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 56804
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 12001
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 6364
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 5905
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 38537
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 24450
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 16993
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 56186
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 58590
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 27492
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 22526
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 22118
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 7699
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 33462
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 23916
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 20678
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 55654
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 46775
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 1374
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 44584
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 29986
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 63748
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 15511
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 30455
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 59485
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 9011
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 12732
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 48442
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 64476
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 22952
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 7642
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 15851
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 56197
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 57979
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 6668
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 46851
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 44578
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 738
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 25701
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 43354
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 40634
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 45134
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 32695
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 4790
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 60957
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 14801
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 16497
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 54908
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 27345
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 51486
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 54981
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 44981
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 60740
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 55079
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 46088
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 37702
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 60556
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 23279
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 11955
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 20546
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 50753
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 51130
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 64148
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 18246
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 61236
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 51757
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 31710
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 62741
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 1113
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 2686
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 11063
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 44061
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 15344
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 25788
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 27914
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 63138
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 19791
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 53669
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 25219
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 56576
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 730
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 15365
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 18505
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 22986
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 2818
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 6582
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 27984
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 7779
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 54391
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 13265
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 36090
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 45458
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 26949
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 19303
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 16631
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 32474
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 11952
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 33100
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 8522
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 9300
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 6940
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 31415
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 12877
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 37626
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 59918
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 11849
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 23298
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 29990
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 33796
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 56663
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 8214
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 47515
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 62650
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 10849
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 38011
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 15181
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 2228
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 65424
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 54815
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 13277
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 28218
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 44024
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 7784
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 25644
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 20212
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 2552
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 53346
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 27334
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 2715
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 13280
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 43699
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 16371
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 18149
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 4444
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 27344
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 44309
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 33217
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 53327
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 50794
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 62254
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 63949
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 38992
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 61904
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 21989
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 15337
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 10510
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 8893
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 53172
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 6010
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 2938
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 24278
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 20973
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 51555
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 54892
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 32840
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 13136
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 51353
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 42450
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 34923
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 17042
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 10582
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 5649
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 55059
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 63691
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 21159
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 38166
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 12716
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 63423
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 30217
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 59250
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 59592
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 64277
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 49885
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 64608
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 49278
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 563
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 37262
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 24425
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 40872
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 31805
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 41849
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 57631
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 15501
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 18950
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 12669
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 11855
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 52373
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 55345
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 28942
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 45547
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 3338
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 33538
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 42246
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 32698
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 10760
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 40177
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 3727
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 58043
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 2850
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 1281
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 7536
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 40917
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 9822
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 2922
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 43902
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 21036
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 47748
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 22704
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 33916
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 42647
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 18730
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 53130
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 15926
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 19389
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 44612
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 42554
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 33567
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 54460
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 14874
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 27910
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 58454
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 17710
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 31346
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 15727
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 21906
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 8717
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 6916
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 42498
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 53700
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 39832
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 8745
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 38374
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 59668
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 64580
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 14946
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 5257
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 10763
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 53024
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 7811
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 40772
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 1839
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 36896
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 32699
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 57374
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 4309
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 14105
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 40167
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 37699
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 49565
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 39476
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 32484
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 54466
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 18231
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 51205
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 300
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 51294
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 53922
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 4933
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 56724
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 62276
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 30646
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 58194
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 21255
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 48105
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 16323
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 57881
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 57737
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 6429
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 9387
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 44476
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 35908
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 32496
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 46360
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 6647
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 49203
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 2049
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 896
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 57505
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 59894
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 15070
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 39809
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 54232
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 2284
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 54099
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 49806
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 33500
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 57843
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 24655
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 20999
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 43396
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 54838
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 31994
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 58629
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 48034
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 55879
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 16498
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 21317
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 33165
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 52239
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 54333
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 23922
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 10197
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 54580
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 16404
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 41999
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 47725
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 43900
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 10876
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 4197
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 40734
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 17096
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 36957
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 2019
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 53009
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 51132
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 16332
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 42484
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 37802
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 4414
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 7750
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 30483
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 28374
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 65389
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 730
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 15126
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 23185
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 4738
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 18750
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 11889
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 20995
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 14192
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 42607
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 26340
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 60304
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 42952
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 15826
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 12428
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 10847
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 34133
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 54509
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 12105
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 2529
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 21736
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 23448
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 37051
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 63779
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 22927
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 51987
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 34475
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 49704
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 19655
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 43197
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 44296
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 48317
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 7532
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 60096
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 19022
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 15307
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 57810
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 50597
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 59664
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 28700
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 26470
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 6136
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 60572
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 19137
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 23990
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 57330
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 8806
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 18950
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 64811
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 43551
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 2025
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 34247
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 31978
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 16830
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 17318
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 48690
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 22340
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 14247
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 1087
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 1132
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 11740
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 41855
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 47445
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 10873
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 14345
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 7126
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 29528
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 39944
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 777
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 14600
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 55293
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 6858
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 9842
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 19749
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 62002
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 9459
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 30119
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 31118
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 42153
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 12079
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 15944
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 48114
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 40264
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 6002
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 45163
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 45993
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 54537
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 25053
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 42751
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 36936
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 35823
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 61193
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 6481
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 59136
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 1593
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 25293
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 20824
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 54657
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 53109
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 59562
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 62583
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 30356
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 58637
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 23556
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 55674
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 48599
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 38377
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 6922
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 885
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 39961
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 14608
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 60500
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 34018
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 34744
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 13864
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 37765
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 9908
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 65215
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 63570
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 65035
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 14541
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 40563
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 22137
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 2559
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 33849
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 16462
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 56780
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 25967
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 13140
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 56316
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 48971
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 54035
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 25863
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 52027
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 2313
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 51335
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 44803
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 51783
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 58036
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 48996
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 64447
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 19519
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 31966
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 49576
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 61386
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 2272
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 6961
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 31300
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 57753
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 13066
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 48304
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 17051
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 50781
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 46510
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 52390
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 57448
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 27685
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 37304
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 18869
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 45913
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 41788
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 8253
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 58110
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 37025
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 16636
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 57662
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 12169
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 53004
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 736
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 35762
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 18333
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 40838
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 59526
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 20160
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 48485
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 43708
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 32021
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 36136
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 47668
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 13082
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 35878
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 3319
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 54037
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 60833
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 12768
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 43465
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 25671
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 16020
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 7955
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 55174
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 32976
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 18014
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 7207
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 3645
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 17662
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 36549
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 2951
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 34089
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 40196
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 8095
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 57592
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 46935
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 25936
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 31421
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 18424
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 38424
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 8866
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 41796
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 46634
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 40849
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 27355
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 36419
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 36336
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 24738
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 53448
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 54335
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 30660
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 32566
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 11624
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 50957
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 58195
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 61027
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 4646
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 38698
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 34930
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 21172
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 34620
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 13093
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 30833
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 37098
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 53709
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 26270
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 44569
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 27725
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 50109
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 22730
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 39748
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 23236
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 163
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 62427
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 59151
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 64796
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 37436
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 29156
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 64570
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 37728
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 1974
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 25519
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 1686
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 57527
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 46410
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 13924
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 51552
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 11625
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 48274
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 31273
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 60765
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 4980
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 14466
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 61196
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 24149
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 13918
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 43298
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 56788
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 19194
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 31673
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 46186
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 23289
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 52277
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 36118
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 44316
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 64746
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 39548
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 38444
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 25628
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 25382
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 56272
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 55568
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 29149
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 22730
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 43647
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 22127
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 50554
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 12903
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 39894
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 17723
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 53893
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 11902
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 56558
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 16073
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 9202
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 42081
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 57497
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 2655
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 9460
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 65522
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 43376
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 30886
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 42043
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 13117
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 39953
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 60255
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 43671
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 5779
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 7591
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 30375
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 29410
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 17717
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 24620
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 58002
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 60415
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 15662
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 21892
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 22790
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 50571
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 56456
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 54370
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 64340
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 43338
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 17088
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 32245
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 21091
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 16456
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 54171
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 2415
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 3279
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 11299
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 53090
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 7634
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 13116
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 30129
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 29781
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 31479
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 56384
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 33987
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 1626
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 2611
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 50823
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 17338
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 14044
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 48160
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 60982
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 41635
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 30987
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 17504
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 12074
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 10274
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 5052
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 38794
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 8406
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 49962
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 862
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 23421
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 20729
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 27453
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 7730
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 49699
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 28030
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 51194
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 45685
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 2510
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 60294
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 6047
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 61519
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 31525
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 47782
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 10113
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 34396
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 58833
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 32943
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 57758
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 65038
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 62755
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 53811
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 22570
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 60081
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 10129
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 22859
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 42364
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 35702
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 51735
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 38037
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 17967
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 20559
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 6584
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 32109
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 25752
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 43797
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 30948
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 38482
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 56223
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 17205
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 55505
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 46880
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 62382
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 4785
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 64109
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 3506
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 14451
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 40231
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 20685
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 57726
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 35372
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 65423
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 31591
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 16338
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 13529
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 31086
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 22313
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 39830
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 40069
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 24459
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 28531
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 23144
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 5241
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 54656
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 44357
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 61410
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 33662
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 34052
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 30574
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 8843
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 46970
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 61467
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 32925
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 38802
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 310
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 3677
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 38100
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 53158
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 284
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 57859
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 26808
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 53450
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 34699
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 39637
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 52404
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 8974
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 55760
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 4971
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 52497
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 22700
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 22323
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 34707
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 25647
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 62752
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 48536
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 49276
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 31385
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 17926
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 15566
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 42918
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 59285
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 46266
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 43512
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 54223
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 1636
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 4633
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 1721
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 7767
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 27095
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 59454
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 12342
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 2288
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 59967
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 43056
+  },
+  {
+    "name": "Samsung Galaxy S9",
+    "category": "Android Mobile",
+    "amount": 38415
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 23247
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 5050
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 29688
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 58774
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 50499
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 45837
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 50175
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 42651
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 970
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 13766
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 168
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 56343
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 32032
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 38333
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 21824
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 30942
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 40269
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 27191
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 42581
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 21122
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 4302
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 47343
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 42319
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 36338
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 16138
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 15451
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 31831
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 28834
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 32698
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 24475
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 15064
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 4319
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 47070
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 36861
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 7211
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 39962
+  },
+  {
+    "name": "Nintendo 3DS",
+    "category": "Game Console",
+    "amount": 28333
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 7559
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 19388
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 38721
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 12269
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 34412
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 15830
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 7456
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 45998
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 42180
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 41667
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 47209
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 8081
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 18154
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 13892
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 16364
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 13280
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 4049
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 26961
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 40738
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 24220
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 4621
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 8217
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 12838
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 61120
+  },
+  {
+    "name": "Sony Xperia Z5",
+    "category": "Android Mobile",
+    "amount": 17260
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 6611
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 1550
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 62267
+  },
+  {
+    "name": "Nexus 6P",
+    "category": "Android Mobile",
+    "amount": 38929
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 51190
+  },
+  {
+    "name": "Amazon 4K Fire TV",
+    "category": "Set Top Box",
+    "amount": 19299
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 58350
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 61663
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 9050
+  },
+  {
+    "name": "Minix NEO X5",
+    "category": "Set Top Box",
+    "amount": 3962
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 44962
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 33982
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 21998
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 29517
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 35857
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 34632
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 8353
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 39970
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 19974
+  },
+  {
+    "name": "Roku Ultra",
+    "category": "Set Top Box",
+    "amount": 56932
+  },
+  {
+    "name": "Google Pixel C",
+    "category": "Tablet",
+    "amount": 36380
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 38370
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 39401
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 44539
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 19930
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 40490
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 52447
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 10680
+  },
+  {
+    "name": "Apple iPhone 6",
+    "category": "iPhone",
+    "amount": 28087
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 60561
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 52891
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 15499
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 37068
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 29018
+  },
+  {
+    "name": "Xbox One",
+    "category": "Game Console",
+    "amount": 12039
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 31050
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 20628
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 54527
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 35690
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 38921
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 3034
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 1393
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 30326
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 12539
+  },
+  {
+    "name": "Windows 7-based PC",
+    "category": "Desktop",
+    "amount": 45948
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 52963
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 21639
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 57650
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 43593
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 32381
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 27665
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 35119
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 2710
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 27427
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 19400
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 29361
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 37174
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 33742
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 44654
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 198
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 53667
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 54912
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 12115
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 53347
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 42750
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 27132
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 35731
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 54154
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 9963
+  },
+  {
+    "name": "Apple TV 5th Gen 4K",
+    "category": "Set Top Box",
+    "amount": 29387
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 63018
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 60645
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 9884
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 64615
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 42268
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 20202
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 23602
+  },
+  {
+    "name": "Samsung Galaxy S7 Edge",
+    "category": "Android Mobile",
+    "amount": 33791
+  },
+  {
+    "name": "LG G Pad 7.0",
+    "category": "Tablet",
+    "amount": 11902
+  },
+  {
+    "name": "HTC One X10",
+    "category": "Android Mobile",
+    "amount": 23557
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 17600
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 24030
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 4977
+  },
+  {
+    "name": "Macbook",
+    "category": "Desktop",
+    "amount": 16302
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 3752
+  },
+  {
+    "name": "Nvidia Shield Tablet K1",
+    "category": "Tablet",
+    "amount": 23722
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 63868
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 109
+  },
+  {
+    "name": "Linux-based PC",
+    "category": "Desktop",
+    "amount": 65472
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 10206
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 16384
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 5694
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "category": "Android Mobile",
+    "amount": 50519
+  },
+  {
+    "name": "Windows 10-based PC",
+    "category": "Desktop",
+    "amount": 44412
+  },
+  {
+    "name": "Apple iPhone 8 Plus",
+    "category": "iPhone",
+    "amount": 6888
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 23622
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 43860
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 23977
+  },
+  {
+    "name": "Chromebook",
+    "category": "Desktop",
+    "amount": 46152
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 53591
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 25353
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 29144
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "category": "Android Mobile",
+    "amount": 40541
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 6612
+  },
+  {
+    "name": "Amazon Kindle Fire HDX 7",
+    "category": "Tablet",
+    "amount": 4437
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 41259
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 50911
+  },
+  {
+    "name": "Amazon Kindle 3",
+    "category": "E Reader",
+    "amount": 39187
+  },
+  {
+    "name": "Apple iPhone XS",
+    "category": "iPhone",
+    "amount": 44989
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "category": "Android Mobile",
+    "amount": 33589
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 61119
+  },
+  {
+    "name": "Samsung Galaxy Tab S3",
+    "category": "Tablet",
+    "amount": 55387
+  },
+  {
+    "name": "HTC One M9",
+    "category": "Android Mobile",
+    "amount": 4214
+  },
+  {
+    "name": "Playstation Vita",
+    "category": "Game Console",
+    "amount": 1660
+  },
+  {
+    "name": "Nintendo Wii U",
+    "category": "Game Console",
+    "amount": 36899
+  },
+  {
+    "name": "Google Nexus Player",
+    "category": "Set Top Box",
+    "amount": 44902
+  },
+  {
+    "name": "Apple TV 4th Gen",
+    "category": "Set Top Box",
+    "amount": 63311
+  },
+  {
+    "name": "Playstation 4",
+    "category": "Game Console",
+    "amount": 35015
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 34767
+  },
+  {
+    "name": "Chromecast",
+    "category": "Set Top Box",
+    "amount": 43872
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "category": "Android Mobile",
+    "amount": 59541
+  },
+  {
+    "name": "Amazon Kindle 4",
+    "category": "E Reader",
+    "amount": 54425
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 11494
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "category": "iPhone",
+    "amount": 722
+  },
+  {
+    "name": "Apple iPhone XS Max",
+    "category": "iPhone",
+    "amount": 40431
+  },
+  {
+    "name": "Sony Xperia Z4 Tablet",
+    "category": "Tablet",
+    "amount": 43975
+  },
+  {
+    "name": "Apple iPhone X",
+    "category": "iPhone",
+    "amount": 53988
+  },
+  {
+    "name": "Samsung Galaxy S6 Edge Plus",
+    "category": "Android Mobile",
+    "amount": 19861
+  },
+  {
+    "name": "Samsung Galaxy Tab A",
+    "category": "Tablet",
+    "amount": 38861
+  },
+  {
+    "name": "Apple iPhone XR",
+    "category": "iPhone",
+    "amount": 33897
+  },
+  {
+    "name": "Apple iPhone 8",
+    "category": "iPhone",
+    "amount": 19321
+  },
+  {
+    "name": "Apple iPhone 7",
+    "category": "iPhone",
+    "amount": 6432
+  },
+  {
+    "name": "Xbox One S",
+    "category": "Game Console",
+    "amount": 63135
+  }
+]
