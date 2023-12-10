@@ -28,7 +28,7 @@ MongoMemoryServer.create()
 	const randomCompany = () => companies[randomInt(0, companies.length)]
 
 	console.log("Inserting mock products..")
-	const mockProducts = mockProductsWithoutCompany.map(p => ({ ...p, company: randomCompany() }))
+	const mockProducts = mockProductsWithoutCompany.map(p => ({ ...p, company: randomCompany().id }))
 	await Product.insertMany(mockProducts)
 
 	console.log("Inserting a user =>  username: admin, password: admin")

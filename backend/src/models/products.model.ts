@@ -21,7 +21,8 @@ export const productSchema = new Schema({
 		required: true,
 	},
 	company: {
-		type: companySchema,
+		type: t.ObjectId,
+		ref: "Company",
 		required: true,
 	},
 

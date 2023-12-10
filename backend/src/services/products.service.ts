@@ -37,28 +37,31 @@ type GetManyOptions = {
 
 const productsService = {
 	async get(id: string) {
-		const product = await Product.findById(id)
+		const product = await Product.findById(id).populate("company", "name _id")
 		return product
 	},
 
 
 
 	async getMany({ page, pageSize, filters, sort }: GetManyOptions) {
+		const _page = page > 0 ? page : 1
+		const _pageSize = (pageSize && pageSize > 0 && pageSize < MAX_PAGE_SIZE) ? pageSize : MAX_PAGE_SIZE
+		const skip = (_page - 1) * _pageSize
 		const _filters = clearUndefinedFields({
 			...filters,
 			name: filters?.name ? { $regex: `^${filters.name}` } : undefined
 		})
-		const _page = page > 0 ? page : 1
-		const _pageSize = pageSize && pageSize > 0 ? pageSize : MAX_PAGE_SIZE
-		const skip = (_page - 1) * _pageSize
-		const query = Product.find(_filters)
-		
-		if (sort) {
-			query.sort(sort)
-		}
-		
+
+		const query = Product
+			.find(_filters)
+			.sort(sort)
+			.limit(_pageSize)
+			.skip(skip)
+			.populate("company", "name _id")
+
+
 		const [products, totalCount] = await Promise.all([
-			query.limit(_pageSize).skip(skip).exec(),
+			query.exec(),
 			Product.find(_filters).countDocuments(),
 		])
 
@@ -79,7 +82,7 @@ const productsService = {
 
 
 
-	async update(id: string, updatedData: Partial<ProductType>) {
+	async update(id: string, updatedData: Omit<Partial<ProductType>, "company"> & { company: string }) {
 		const updatedProduct = await Product.findByIdAndUpdate(id, updatedData)
 		return updatedProduct
 	},
@@ -89,6 +92,13 @@ const productsService = {
 	async delete(ids: string | string[]) {
 		const { deletedCount } = await Product.deleteMany({ _id: ids })
 		return deletedCount
+	},
+
+
+
+	async deleteByCompany(ids: string | string[]) {
+		const { deletedCount: deletedProducts } = await Product.deleteMany({ company: ids })
+		return deletedProducts
 	},
 }
 
