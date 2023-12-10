@@ -2,6 +2,7 @@ import { MAX_PAGE_SIZE } from "../configs/general.config";
 import Company, { CompanyType } from "../models/companies.model";
 import clearUndefinedFields from "../utils/clearUndefinedFields";
 import { Optional } from "../utils/type-utils"
+import services from "./services";
 
 
 
@@ -60,6 +61,12 @@ const companiesService = {
 	},
 
 
+	async getAllNames() {
+		const names = await Company.find().select("name")
+		return names
+	},
+
+
 	async getCount() {
 		const count = await Company.countDocuments()
 		return count
@@ -79,13 +86,15 @@ const companiesService = {
 	},
 
 
-	// TODO: also delete products ?
-	async delete(ids: string | string[]) {
-		const { deletedCount } = await Company.deleteMany({ _id: ids })
-		return deletedCount
+	async delete(ids: string[]) {
+		const [{ deletedCount: deletedCompanies }, deletedProducts] = await Promise.all([
+			Company.deleteMany({ _id: ids }),
+			services.product.deleteByCompany(ids),
+		])
+
+		return deletedCompanies
 	},
 }
-
 
 
 export default companiesService

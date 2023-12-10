@@ -8,14 +8,15 @@ function routes(app: Express) {
 	app.get("/companies/count", cookieJwtAuth, controllers.company.getCount)
 	app.get("/companies/:companyId", cookieJwtAuth, controllers.company.getById)
 	app.post("/companies", cookieJwtAuth, controllers.company.post)
-	app.put("/companies", cookieJwtAuth, controllers.company.put)
+	app.put("/companies/:companyId", cookieJwtAuth, controllers.company.put)
 	app.delete("/companies", cookieJwtAuth, controllers.company.delete)
+	app.get("/company-names", cookieJwtAuth, controllers.company.getAllNames)
 	
 	app.get("/products", cookieJwtAuth, controllers.product.get)
 	app.get("/products/count", cookieJwtAuth, controllers.product.getCount)
 	app.get("/products/:productId", cookieJwtAuth, controllers.product.getById)
 	app.post("/products", cookieJwtAuth, controllers.product.post)
-	app.put("/products", cookieJwtAuth, controllers.product.put)
+	app.put("/products/:productId", cookieJwtAuth, controllers.product.put)
 	app.delete("/products", cookieJwtAuth, controllers.product.delete)
 	
 	app.get("/users", cookieJwtAuth, controllers.user.get)

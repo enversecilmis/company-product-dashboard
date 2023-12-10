@@ -7,7 +7,7 @@ type GetQueryParams = {
 	page?: string
 	pageSize?: string
 	name?: string
-	companyId?: string | string[]
+	company?: string | string[]
 	category?: string | string[]
 	amountUnit?: string | string[]
 	amount?: string
@@ -26,7 +26,7 @@ type GetQueryParams = {
 
 
 const get: RequestHandler = async (req, res) => {
-	const { page, pageSize, sort, name, amount, amountGt, amountLt, amountUnit, category, companyId,  createdAt, createdAtGt, createdAtLt, updatedAt, updatedAtGt, updatedAtLt } = req.query  as GetQueryParams
+	const { page, pageSize, sort, name, amount, amountGt, amountLt, amountUnit, category, company,  createdAt, createdAtGt, createdAtLt, updatedAt, updatedAtGt, updatedAtLt } = req.query  as GetQueryParams
 
 	const { products, totalCount } = await services.product.getMany({
 		page: page ? +page : 1,
@@ -36,7 +36,7 @@ const get: RequestHandler = async (req, res) => {
 			name,
 			amountUnit,
 			category,
-			company: companyId,
+			company,
 			createdAt: {
 				$eq: createdAt ? new Date(createdAt) : undefined,
 				$gt: createdAtGt ? new Date(createdAtGt) : undefined,
@@ -80,14 +80,10 @@ const getCount: RequestHandler = async (req, res) => {
 
 
 const post: RequestHandler = async (req, res) => {
-	const { name, category, amount, amountUnit, companyId } = req.body
+	const { name, category, amount, amountUnit, company } = req.body
 
-	if (!name || !category || !amount || !amountUnit || !companyId)
+	if (!name || !category || !amount || !amountUnit || !company)
 		return res.status(400).json({ error: "Invalid parameters" })
-
-	const company = await services.company.get(companyId)
-	if (!company)
-		return res.status(404).json({ error: "Company doesn't exist" })
 
 	const product = await services.product.create({ name, category, amount, amountUnit, company })
 
