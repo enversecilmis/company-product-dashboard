@@ -50,6 +50,13 @@ const get: RequestHandler = async (req, res) => {
 
 
 
+const getAllNames: RequestHandler = async (req, res) => {
+	const names = await services.company.getAllNames()
+	return res.status(200).json(names)
+}
+
+
+
 const getById: RequestHandler = async (req, res) => {
 	const id = req.params.companyId
 	const company = await services.company.get(id)
@@ -114,6 +121,7 @@ const companyControllers = {
 	getCount,
 	post,
 	put,
+	getAllNames,
 	delete: remove,
 }
 
