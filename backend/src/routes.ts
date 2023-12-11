@@ -6,6 +6,7 @@ import controllers from "./controllers/controllers"
 function routes(app: Express) {
 	app.get("/companies", cookieJwtAuth, controllers.company.get)
 	app.get("/companies/count", cookieJwtAuth, controllers.company.getCount)
+	app.get("/companies/countries", cookieJwtAuth, controllers.company.getCountries)
 	app.get("/companies/:companyId", cookieJwtAuth, controllers.company.getById)
 	app.post("/companies", cookieJwtAuth, controllers.company.post)
 	app.put("/companies/:companyId", cookieJwtAuth, controllers.company.put)

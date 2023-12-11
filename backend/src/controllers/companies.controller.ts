@@ -114,6 +114,13 @@ const remove: RequestHandler = async (req, res) => {
 
 
 
+const getCountries: RequestHandler = async (req, res) => {
+	const countries = await services.company.getAllCountries()
+	return res.status(200).json(countries)
+}
+
+
+
 
 const companyControllers = {
 	get,
@@ -123,6 +130,7 @@ const companyControllers = {
 	put,
 	getAllNames,
 	delete: remove,
+	getCountries,
 }
 
 

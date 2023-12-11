@@ -40,7 +40,6 @@ const companiesService = {
 		const _filters = clearUndefinedFields({
 			...filters,
 			name: filters?.name ? { $regex: `^${filters.name}` } : undefined,
-			incorporationCountry: filters?.incorporationCountry ? { $regex: `^${filters.incorporationCountry}` } : undefined,
 		})
 		const _page = page > 0 ? page : 1
 		const _pageSize = pageSize && pageSize > 0 ? pageSize : MAX_PAGE_SIZE
@@ -93,6 +92,13 @@ const companiesService = {
 		])
 
 		return deletedCompanies
+	},
+
+
+	async getAllCountries() {
+		const result = await Company.find().sort("incorporationCountry").select("incorporationCountry")
+		const countries = result.map(c => c.incorporationCountry).filter((c, i, arr) => arr.indexOf(c) === i)
+		return countries
 	},
 }
 

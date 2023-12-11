@@ -10,7 +10,7 @@ export type UserData = {
 }
 
 
-type CompanyBase = {
+export type CompanyBase = {
 	name: string
 	legalNumber: number
 	incorporationCountry: string
@@ -24,7 +24,7 @@ export type Company = CompanyBase & {
 }
 
 
-type ProductBase = {
+export type ProductBase = {
 	name: string
 	category: string
 	amount: number
@@ -56,7 +56,7 @@ export default class EteAPI {
 
 
 	// Custom fetch for redundant stuff
-	private static async customFetch<T>(relativePath: string, init?: RequestInit): Promise<T> {
+	private static customFetch = async <T>(relativePath: string, init?: RequestInit): Promise<T> => {
 		// ***** settings to easily see error and loading states *****
 		if (this.delayEnabled)
 			await wait(this.apiDelay)
@@ -85,9 +85,14 @@ export default class EteAPI {
 
 
 
+	static getCompanyNames = async () => {
+		const companyNames = await this.customFetch<{ name: string, _id: string }[]>("company-names", { credentials: "include" })
+		return companyNames
+	}
 
-	static async getCompanies(options: {
-		page?: string
+
+	static getCompanies = async (options?: {
+		page?: number
 		pageSize?: number
 		sort?: string
 		name?: string | string[]
@@ -99,7 +104,7 @@ export default class EteAPI {
 		updatedAt?: string
 		updatedAtLt?: string
 		updatedAtGt?: string
-	}) {
+	}) => {
 		const query = parseQueryParams(options)
 		const result = await this.customFetch<{ companies: Company[], totalCount: number }>(`companies?${query}`, {
 			credentials: "include",
@@ -108,7 +113,7 @@ export default class EteAPI {
 	}
 
 
-	static async getProducts(options: {
+	static getProducts = async (options: {
 		sort?: string
 		page?: number
 		pageSize?: number
@@ -125,7 +130,7 @@ export default class EteAPI {
 		updatedAt?: string
 		updatedAtLt?: string
 		updatedAtGt?: string
-	}) {
+	}) => {
 		const query = parseQueryParams(options)
 		const result = await this.customFetch<{ products: Product[], totalCount: number }>(`products?${query}`, {
 			credentials: "include",
@@ -134,31 +139,31 @@ export default class EteAPI {
 	}
 
 
-	static async getCompany(id: string) {
+	static getCompany = async (id: string) => {
 		const company = await this.customFetch<Company>(`companies/${id}`)
 		return company
 	}
 
 
-	static async getProduct(id: string) {
+	static getProduct = async (id: string) => {
 		const product = await this.customFetch<Product>(`products/${id}`)
 		return product
 	}
 
 
-	static async getCompanyCount() {
+	static getCompanyCount = async () => {
 		const { count } = await this.customFetch<{ count: number }>("companies/count", { credentials: "include" })
 		return count
 	}
 
 
-	static async getProductCount() {
+	static getProductCount = async () => {
 		const { count } = await this.customFetch<{ count: number }>("products/count", { credentials: "include" })
 		return count
 	}
 
 
-	static async createCompany(payload: CompanyBase) {
+	static createCompany = async (payload: CompanyBase) => {
 		const createdCompany = await this.customFetch("companies", {
 			method: "post",
 			credentials: "include",
@@ -171,7 +176,7 @@ export default class EteAPI {
 	}
 
 
-	static async createProduct(payload: Omit<ProductBase, "company"> & { companyId: string }) {
+	static createProduct = async (payload: Omit<ProductBase, "company"> & { companyId: string }) => {
 		const createdProduct = await this.customFetch("products", {
 			method: "post",
 			credentials: "include",
@@ -184,7 +189,7 @@ export default class EteAPI {
 	}
 
 
-	static async updateCompany(companyId: string, update: Partial<CompanyBase>) {
+	static updateCompany = async (companyId: string, update: Partial<CompanyBase>) => {
 		const updated = await this.customFetch(`companies/${companyId}`, {
 			method: "put",
 			credentials: "include",
@@ -197,7 +202,7 @@ export default class EteAPI {
 	}
 
 
-	static async updateProduct(productId: string, update: Partial<ProductBase>) {
+	static updateProduct = async (productId: string, update: Partial<ProductBase>) => {
 		const updated = await this.customFetch(`products/${productId}`, {
 			method: "put",
 			credentials: "include",
@@ -211,16 +216,21 @@ export default class EteAPI {
 
 
 
-	static async deleteCompany(id: string) {
-		const deleted = await this.customFetch(`companies/${id}`, {
+	static deleteCompany = async (id: string) => {
+		const { deletedCount } = await this.customFetch<{ deletedCount: number }>("companies", {
 			method: "delete",
 			credentials: "include",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify({ ids: [id] })
 		})
-		return deleted
+
+		return deletedCount
 	}
 
 
-	static async deleteProduct(id: string) {
+	static deleteProduct = async (id: string) => {
 		const deleted = await this.customFetch(`products/${id}`, {
 			method: "delete",
 			credentials: "include",
@@ -229,7 +239,7 @@ export default class EteAPI {
 	}
 
 
-	static async deleteManyCompanies(ids: string[]) {
+	static deleteManyCompanies = async (ids: string[]) => {
 		const { deletedCount } = await this.customFetch<{ deletedCount: number }>("companies", {
 			method: "delete",
 			credentials: "include",
@@ -242,7 +252,7 @@ export default class EteAPI {
 	}
 
 
-	static async deleteManyProducts(ids: string[]) {
+	static deleteManyProducts = async (ids: string[]) => {
 		const { deletedCount } = await this.customFetch<{ deletedCount: number }>("products", {
 			method: "delete",
 			credentials: "include",
@@ -255,7 +265,15 @@ export default class EteAPI {
 	}
 
 
-	static async register(name: string, username: string, password: string) {
+	static getCountries = async () => {
+		const countries = await this.customFetch<string[]>("companies/countries", {
+			credentials: "include",
+		})
+		return countries
+	}
+
+
+	static register = async (name: string, username: string, password: string) => {
 		const userData = await this.customFetch<UserData>("register", {
 			method: "post",
 			body: JSON.stringify({ name, username, password }),
@@ -267,7 +285,7 @@ export default class EteAPI {
 		return userData
 	}
 
-	static async login(username: string, password: string) {
+	static login = async (username: string, password: string) => {
 		const userData = await this.customFetch<UserData>("login", {
 			method: "POST",
 			body: JSON.stringify({ username, password }),
@@ -280,13 +298,13 @@ export default class EteAPI {
 	}
 
 
-	static async logout() {
+	static logout = async () => {
 		const result = await this.customFetch("logout", { credentials: "include", method: "post" })
 		return result
 	}
 
 
-	static async checkAuth() {
+	static checkAuth = async () => {
 		const userData = await this.customFetch<UserData>("check-auth", { credentials: "include" })
 		return userData
 	}
