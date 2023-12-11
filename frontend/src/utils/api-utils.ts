@@ -176,7 +176,7 @@ export default class EteAPI {
 	}
 
 
-	static createProduct = async (payload: Omit<ProductBase, "company"> & { companyId: string }) => {
+	static createProduct = async (payload: Omit<ProductBase, "company"> & { company: string }) => {
 		const createdProduct = await this.customFetch("products", {
 			method: "post",
 			credentials: "include",

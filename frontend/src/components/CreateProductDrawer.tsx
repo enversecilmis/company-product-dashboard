@@ -113,7 +113,7 @@ export default function CreateProductDrawer({ open, onClose }: Props) {
 
 					
 					<Form.Item
-						name="companyId"
+						name="company"
 						label="Company"
 						rules={[{ required: true, message: "Please select a company" }]}
 					>
