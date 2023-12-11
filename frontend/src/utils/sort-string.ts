@@ -1,7 +1,7 @@
 import { SorterResult } from "antd/es/table/interface"
-import { Company } from "./api-utils"
+import { Company, Product } from "./api-utils"
 
-const sortQueryString = (sorter: SorterResult<Company> | SorterResult<Company>[]) => {
+const sortQueryString = <T extends Company | Product>(sorter: SorterResult<T> | SorterResult<T>[]) => {
 	if (Array.isArray(sorter))
 		return ""
 
