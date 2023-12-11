@@ -54,11 +54,13 @@ const productsService = {
 
 		const query = Product
 			.find(_filters)
-			.sort(sort)
 			.limit(_pageSize)
 			.skip(skip)
 			.populate("company", "name _id")
-
+		
+		if (sort) {
+			query.sort(sort)
+		}
 
 		const [products, totalCount] = await Promise.all([
 			query.exec(),
@@ -99,6 +101,13 @@ const productsService = {
 	async deleteByCompany(ids: string | string[]) {
 		const { deletedCount: deletedProducts } = await Product.deleteMany({ company: ids })
 		return deletedProducts
+	},
+
+
+	async getCategories() {
+		const products = await Product.find().sort("category").select("category")
+		const categories = products.map(p => p.category).filter((c, i, arr) => arr.indexOf(c) === i)
+		return categories
 	},
 }
 

@@ -119,6 +119,12 @@ const remove: RequestHandler = async (req, res) => {
 
 
 
+const getCategories: RequestHandler = async (req, res) => {
+	const categories = await services.product.getCategories()
+	return res.status(200).json(categories)
+}
+
+
 
 
 
@@ -129,6 +135,7 @@ const productsControllers = {
 	post,
 	put,
 	delete: remove,
+	getCategories,
 }
 
 

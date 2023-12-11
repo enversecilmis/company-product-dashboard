@@ -253,7 +253,7 @@ export default class EteAPI {
 
 
 	static deleteManyProducts = async (ids: string[]) => {
-		const { deletedCount } = await this.customFetch<{ deletedCount: number }>("products", {
+		const deletedCount = await this.customFetch<number>("products", {
 			method: "delete",
 			credentials: "include",
 			headers: {
@@ -270,6 +270,14 @@ export default class EteAPI {
 			credentials: "include",
 		})
 		return countries
+	}
+	
+	
+	static getCategories = async () => {
+		const categories = await this.customFetch<string[]>("products/categories", {
+			credentials: "include",
+		})
+		return categories
 	}
 
 

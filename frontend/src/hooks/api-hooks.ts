@@ -1,4 +1,4 @@
-import { useMutation, useQuery } from "@tanstack/react-query"
+import { keepPreviousData, useMutation, useQuery } from "@tanstack/react-query"
 import EteAPI, { CompanyBase, ProductBase } from "../utils/api-utils"
 import { queryClient } from "../main"
 import { App } from "antd"
@@ -10,6 +10,7 @@ const apiHooks = {
 		return useQuery({
 			queryKey: ["companies", options],
 			queryFn: () => EteAPI.getCompanies(options),
+			placeholderData: keepPreviousData,
 		})
 	},
 
@@ -29,7 +30,8 @@ const apiHooks = {
 			onSuccess: async () => {
 				message.success("Update Successful")
 				options?.onSuccess?.()
-				queryClient.invalidateQueries({ queryKey: ["companies", "products"] })
+				queryClient.invalidateQueries({ queryKey: ["companies"] })
+				queryClient.invalidateQueries({ queryKey: ["products"] })
 			},
 		})
 	},
@@ -56,20 +58,20 @@ const apiHooks = {
 	},
 
 
-	useDeleteCompany: (ids: string | string[], options?: {
+	useDeleteCompany: (options?: {
 		onSuccess?: (deletedCount: number) => void
 		onError?: (error: Error) => void
 	}) => {
 		const { message } = App.useApp()
 		const result = useMutation({
 			mutationFn: EteAPI.deleteManyCompanies,
-			mutationKey: ["delete-companies", ids],
+			mutationKey: ["delete-companies"],
 			onError: (error) => {
 				message.error(error.message)
 				options?.onError?.(error)
 			},
 			onSuccess: (deletedCount) => {
-				message.success(`Deleted ${deletedCount} companies`)
+				message.success(`Deleted ${deletedCount} company(s)`)
 				options?.onSuccess?.(deletedCount)
 				queryClient.invalidateQueries({ queryKey: ["companies"] })
 			},
@@ -83,6 +85,7 @@ const apiHooks = {
 		return useQuery({
 			queryKey: ["products", options],
 			queryFn: () => EteAPI.getProducts(options),
+			placeholderData: keepPreviousData,
 		})
 	},
 
@@ -104,6 +107,7 @@ const apiHooks = {
 				message.success("Update Successful")
 				options?.onSuccess?.()
 				queryClient.invalidateQueries({ queryKey: ["products"] })
+				queryClient.invalidateQueries({ queryKey: ["categories"] })
 			},
 		})
 		return result
@@ -144,7 +148,7 @@ const apiHooks = {
 				options?.onError?.(error)
 			},
 			onSuccess: (deletedCount) => {
-				message.success("Product is created successfully")
+				message.success(`Deleted ${deletedCount} product(s)`)
 				options?.onSuccess?.(deletedCount)
 				queryClient.invalidateQueries({ queryKey: ["products"] })
 			},
@@ -183,7 +187,15 @@ const apiHooks = {
 			queryKey: ["countries"],
 			queryFn: EteAPI.getCountries,
 		})
-	}
+	},
+
+
+	useCategories: () => {
+		return useQuery({
+			queryKey: ["categories"],
+			queryFn: EteAPI.getCategories,
+		})
+	},
 }
 
 

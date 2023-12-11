@@ -15,6 +15,7 @@ function routes(app: Express) {
 	
 	app.get("/products", cookieJwtAuth, controllers.product.get)
 	app.get("/products/count", cookieJwtAuth, controllers.product.getCount)
+	app.get("/products/categories", cookieJwtAuth, controllers.product.getCategories)
 	app.get("/products/:productId", cookieJwtAuth, controllers.product.getById)
 	app.post("/products", cookieJwtAuth, controllers.product.post)
 	app.put("/products/:productId", cookieJwtAuth, controllers.product.put)
