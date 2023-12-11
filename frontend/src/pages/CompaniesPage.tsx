@@ -26,20 +26,14 @@ export default function CompaniesPage() {
 	const {
 		data: companiesData,
 		isLoading: isLoadingCompanies,
-	} = apiHooks.useCompanies({ page, pageSize, sort, country: filters.country })
+		isPlaceholderData,
+	} = apiHooks.useCompanies({ page, pageSize, sort, ...filters })
 
 	const {
 		mutate: deleteCompanies,
 		isPending: isDeletingCompanies,
-	} = apiHooks.useDeleteCompany(selectedIds, {
-		onSuccess: () => setSelectedIds([]),
-	})
+	} = apiHooks.useDeleteCompany({ onSuccess: () => setSelectedIds([]) })
 
-
-	const onEditDrawerClose = () => {
-		setEditingItem(undefined)
-		setEditDrawerOpen(false)
-	}
 
 
 	const columns: ColumnsType<Company> = [
@@ -78,21 +72,35 @@ export default function CompaniesPage() {
 			title: "",
 			key: "edit",
 			render: (_, company) => (
-				<Button shape="circle" type="default" icon={<EditFilled />} onClick={() => {
-					setEditingItem(company)
-					setEditDrawerOpen(true)
-				}} />
+				<Button
+					shape="circle"
+					type="default"
+					icon={<EditFilled />}
+					onClick={() => {
+						setEditingItem(company)
+						setEditDrawerOpen(true)
+					}}
+				/>
 			),
 		},
 	]
 
 
-	
 
   return (
     <Flex vertical gap={20} className="p-4">
-			<CreateCompanyDrawer open={createDrawerOpen} onClose={() => setCreateDrawerOpen(false)} />
-			<CompanyEditDrawer company={editingItem!} open={editDrawerOpen} onClose={onEditDrawerClose} />
+			<CreateCompanyDrawer
+				open={createDrawerOpen}
+				onClose={() => setCreateDrawerOpen(false)}
+			/>
+			<CompanyEditDrawer
+				company={editingItem!}
+				open={editDrawerOpen}
+				onClose={() => {
+					setEditingItem(undefined)
+					setEditDrawerOpen(false)
+				}}
+			/>
 
 			<Flex gap={20}>
 				<Popconfirm
@@ -122,7 +130,7 @@ export default function CompaniesPage() {
 
 			<Table
 				scroll={{ x: true, y: "60vh" }}
-				loading={isLoadingCompanies}
+				loading={isLoadingCompanies || isPlaceholderData}
 				dataSource={companiesData?.companies}
 				columns={columns}
 				rowKey={company => company._id}
