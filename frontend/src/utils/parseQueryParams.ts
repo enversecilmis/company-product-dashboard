@@ -4,7 +4,9 @@ type Param = string | number | boolean
 type Params = Record<string, Param | Param[]>
 
 
-const parseQueryParams = (params: Params) => {
+const parseQueryParams = (params?: Params) => {
+	if (!params)
+		return ""
 	const keys = Object.entries(params)
 
 	const queries = keys.map(([key, value]) => {
