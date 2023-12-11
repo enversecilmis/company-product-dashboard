@@ -1,70 +1,45 @@
-import { useMemo } from "react"
-import { App, Button, Flex, Popconfirm, Table } from "antd";
-import EteAPI, { Company } from "../utils/api-utils";
-import { useQuery } from "@tanstack/react-query";
+import { useState } from "react"
+import { Button, Flex, Popconfirm, Table } from "antd";
+import { Company } from "../utils/api-utils";
 import { Link } from "react-router-dom";
 import { ColumnsType } from "antd/es/table";
 import { DeleteOutlined, EditFilled, PlusOutlined } from "@ant-design/icons";
-import { create } from "zustand";
-import { queryClient } from "../main";
 import CreateCompanyDrawer from "../components/CreateCompanyDrawer";
 import CompanyEditDrawer from "../components/CompanyEditDrawer";
-
-
-
-type CompanyTableState = {
-	isDeleting: boolean
-	selectedIds: string[]
-	createDrawerOpen: boolean
-	editDrawerOpen: boolean
-	editingItem?: Company
-	setIsDeleting: (isDeleting: boolean) => void
-	setSelectedIds: (selectedIds: string[]) => void
-	setCreateDrawerOpen: (createDrawerOpen: boolean) => void
-	setEditDrawerOpen: (editDrawerOpen: boolean) => void
-	setEditingItem: (editingItem?: Company) => void
-}
-const useCompanyTableState = create<CompanyTableState>((set) => ({
-	isDeleting: false,
-	selectedIds: [],
-	createDrawerOpen: false,
-	editDrawerOpen: false,
-	editingItem: undefined,
-	setEditDrawerOpen: (editDrawerOpen: boolean) => set({ editDrawerOpen }),
-	setIsDeleting: (isDeleting: boolean) => set({ isDeleting }),
-	setSelectedIds: (selectedIds: string[]) => set({ selectedIds }),
-	setCreateDrawerOpen: (createDrawerOpen: boolean) => set({ createDrawerOpen }),
-	setEditingItem: (editingItem?: Company) => set({ editingItem }),
-}))
-
-
+import sortDirection from "../utils/sort-direction";
+import sortQueryString from "../utils/sort-string";
+import apiHooks from "../hooks/api-hooks";
 
 
 
 export default function CompaniesPage() {
-	const { message } = App.useApp()
-	const {
-		isDeleting, setIsDeleting,
-		selectedIds, setSelectedIds,
-		createDrawerOpen, setCreateDrawerOpen,
-		editDrawerOpen, setEditDrawerOpen,
-		editingItem, setEditingItem,
-	} = useCompanyTableState()
+	const [editingItem, setEditingItem] = useState<Company>()
+	const [selectedIds, setSelectedIds] = useState<string[]>([])
+	const [createDrawerOpen, setCreateDrawerOpen] = useState(false)
+	const [editDrawerOpen, setEditDrawerOpen] = useState(false)
+	const [{ page, pageSize }, setPageConfig] = useState({ page: 1, pageSize: 20 })
+	const [sort, setSort] = useState("")
+	const [filters, setFilters] = useState<{ country?: string[] }>({ country: [] })
 
-	const { data, isLoading } = useQuery({
-		queryKey: ["companies"],
-		queryFn: () => EteAPI.getCompanies({  })
+	const { data: countries } = apiHooks.useCountries()
+
+	const {
+		data: companiesData,
+		isLoading: isLoadingCompanies,
+	} = apiHooks.useCompanies({ page, pageSize, sort, country: filters.country })
+
+	const {
+		mutate: deleteCompanies,
+		isPending: isDeletingCompanies,
+	} = apiHooks.useDeleteCompany(selectedIds, {
+		onSuccess: () => setSelectedIds([]),
 	})
 
-	const companies = data?.companies
 
-
-	const countryFilters = useMemo(() => {
-		return companies?.
-			map(company => company.incorporationCountry)
-			.filter((name, index, arr) => index === arr.indexOf(name))
-			.map(name => ({ text: name, value: name }))
-	}, [companies])
+	const onEditDrawerClose = () => {
+		setEditingItem(undefined)
+		setEditDrawerOpen(false)
+	}
 
 
 	const columns: ColumnsType<Company> = [
@@ -72,65 +47,47 @@ export default function CompaniesPage() {
 			title: "Name",
 			dataIndex: "name",
 			key: "name",
+			className: "whitespace-nowrap min-w-fit",
 			render: (name) => <Link to="#">{name}</Link>,
-			sorter: (a, b) => a.name < b.name ? -1 : 1,
+			sortOrder: sortDirection("name", sort),
+			sorter: true,
+			fixed: true,
 		},
 		{
 			title: "Country",
 			dataIndex: "incorporationCountry",
 			key: "incorporationCountry",
-			sorter: (a, b) => a.incorporationCountry < b.incorporationCountry ? -1 : 1,
-			filters: countryFilters,
-			onFilter: (val, record) => record.incorporationCountry === val
+			filters: countries?.map((country) => ({ text: country, value: country })),
+			sortOrder: sortDirection("incorporationCountry", sort),
+			sorter: true,
 		},
 		{
 			title: "Website",
 			dataIndex: "website",
 			key: "website",
+			className: "whitespace-nowrap min-w-fit",
 			render: (website) => <Link to="#">{website}</Link>,
 		},
 		{
 			title: "Legal Number",
 			dataIndex: "legalNumber",
 			key: "legalNumber",
+			className: "whitespace-nowrap min-w-fit",
 		},
 		{
 			title: "",
 			key: "edit",
-			render: (_, company) => <Button shape="circle" type="default" icon={<EditFilled />} onClick={() => editHandler(company)} />,
+			render: (_, company) => (
+				<Button shape="circle" type="default" icon={<EditFilled />} onClick={() => {
+					setEditingItem(company)
+					setEditDrawerOpen(true)
+				}} />
+			),
 		},
 	]
 
 
-	const deleteHandler = async () => {
-		setIsDeleting(true)
-
-		try {
-			const deletedCount = await EteAPI.deleteManyCompanies(selectedIds)
-			message.success(`Successfully deleted ${deletedCount} company`)
-			await queryClient.invalidateQueries({ queryKey: ["companies"] })
-			setSelectedIds([])
-		}
-		catch (err) {
-			if (err instanceof Error)
-				message.error(err.message)
-		}
-		finally {
-			setIsDeleting(false)
-		}
-	}
-
-
-	const editHandler = (company: Company) => {
-		setEditingItem(company)
-		setEditDrawerOpen(true)
-	}
-
-
-	const onEditDrawerClose = () => {
-		setEditingItem(undefined)
-		setEditDrawerOpen(false)
-	}
+	
 
   return (
     <Flex vertical gap={20} className="p-4">
@@ -141,12 +98,12 @@ export default function CompaniesPage() {
 				<Popconfirm
 					title="Delete selected companies"
 					description={`Are you sure to delete ${selectedIds.length} companies?`}
-					onConfirm={deleteHandler}
+					onConfirm={() => deleteCompanies(selectedIds)}
 					okText="Yes"
 					cancelText="No"
 				>
 					<Button
-						loading={isDeleting}
+						loading={isDeletingCompanies}
 						disabled={selectedIds.length === 0}
 						icon={<DeleteOutlined />}
 					>
@@ -162,17 +119,30 @@ export default function CompaniesPage() {
 					New
 				</Button>
 			</Flex>
+
 			<Table
-				scroll={{ x: "100vw" }}
-				loading={isLoading}
-				dataSource={companies}
+				scroll={{ x: true, y: "60vh" }}
+				loading={isLoadingCompanies}
+				dataSource={companiesData?.companies}
 				columns={columns}
 				rowKey={company => company._id}
-				rowClassName={({ _id }) => selectedIds.includes(_id) && isDeleting ?  "opacity-60" : ""}
+				rowClassName={({ _id }) => selectedIds.includes(_id) && isDeletingCompanies ?  "opacity-60" : ""}
+				onChange={(_, filters, sorter) => {
+					setSort(sortQueryString(sorter))
+					setFilters({ country: (filters.incorporationCountry ?? []) as string[] })
+				}}
+				pagination={{
+					pageSize: pageSize,
+					pageSizeOptions: [10, 20],
+					total: companiesData?.totalCount,
+					showTotal: (total, [start, end]) => <span>showing between {start}-{end} from {total} companies</span>,
+					showSizeChanger: true,
+					onChange: (page, pageSize) => setPageConfig({ page, pageSize }),
+				}}
 				rowSelection={{
 					type: "checkbox",
 					selections: ["SELECT_ALL", "SELECT_NONE"],
-					getCheckboxProps: () => ({ disabled: isDeleting }),
+					getCheckboxProps: () => ({ disabled: isDeletingCompanies }),
 					selectedRowKeys: selectedIds,
 					onChange: (selectedRowKeys) => setSelectedIds(selectedRowKeys as string[]),
 				}}

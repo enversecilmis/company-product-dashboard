@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react"
-import { App, Button, Drawer, Form, Input, InputNumber, Space } from "antd"
-import EteAPI, { Company } from "../utils/api-utils"
-import { queryClient } from "../main"
+import { useEffect } from "react"
+import { Button, Drawer, Form, Input, InputNumber, Space } from "antd"
+import { Company } from "../utils/api-utils"
+import apiHooks from "../hooks/api-hooks"
 
 
 type Props = {
@@ -12,42 +12,28 @@ type Props = {
 
 export default function CompanyEditDrawer({ open, onClose, company }: Props) {
 	const [form] = Form.useForm()
-	const { message } = App.useApp()
-	const [isEditing, setIsEditing] = useState(false)
+
+	const {
+		mutate: updateCompany,
+		isPending: isUpdating,
+	} = apiHooks.useUpdatecompany(company?._id ?? "", {
+		onSuccess: () => {
+			form.resetFields()
+			onClose()
+		},
+	})
 
 	
 	useEffect(() => {
 		if (!company)
 			return
-		const { name, incorporationCountry, legalNumber, website } = company
-		form.setFieldsValue({ name, incorporationCountry, legalNumber, website })
+
+		form.setFieldsValue(company)
 	}, [company, form])
+	
 
-	const editCompany = async () => {
-		if (!company)
-			return
-
-		const values = form.getFieldsValue()
-		setIsEditing(true)
-
-		try {
-			await EteAPI.updateCompany(company._id, values)
-			message.success("Company successfully edited")
-			queryClient.invalidateQueries({ queryKey: ["companies"] })
-			onClose()
-		}
-		catch (err) {
-			if (err instanceof Error)
-				message.error(err.message)
-		}
-		finally {
-			setIsEditing(false)
-		}
-	}
-
-
-	const cancel = () => {
-		onClose()
+	const update = async () => {
+		updateCompany(form.getFieldsValue())
 	}
 
 
@@ -64,8 +50,8 @@ export default function CompanyEditDrawer({ open, onClose, company }: Props) {
         }}
         extra={
           <Space>
-            <Button onClick={cancel}>Cancel</Button>
-            <Button loading={isEditing} onClick={editCompany} type="primary">
+            <Button onClick={onClose}>Cancel</Button>
+            <Button loading={isUpdating} onClick={update} type="primary">
               Submit
             </Button>
           </Space>

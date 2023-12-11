@@ -1,15 +1,17 @@
-import { useQuery } from "@tanstack/react-query"
-import EteAPI from "../utils/api-utils"
 import { Button, Card, Flex, Spin, Statistic, Tag, Typography } from "antd"
 import { ReloadOutlined } from "@ant-design/icons"
+import apiHooks from "../hooks/api-hooks"
 
 
 
 export default function CompanyCountCard() {
-	const { data: companyCount, isLoading, refetch, isRefetching, error } = useQuery({
-		queryKey: ["companies", "company-count"],
-		queryFn: () => EteAPI.getCompanyCount(),
-	})
+	const {
+		data: companyCount,
+		isLoading,
+		refetch,
+		isRefetching,
+		error,
+	} = apiHooks.useCompanyCount()
 
 	return (
 		<Card bordered={false}>

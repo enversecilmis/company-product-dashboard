@@ -1,15 +1,17 @@
-import { useQuery } from "@tanstack/react-query"
-import EteAPI from "../utils/api-utils"
 import { Button, Card, Flex, Spin, Statistic, Typography } from "antd"
 import { ReloadOutlined } from "@ant-design/icons"
+import apiHooks from "../hooks/api-hooks"
 
 
 
 export default function ProductCountCard() {
-	const { data: productCount, isLoading, refetch, isRefetching, error } = useQuery({
-		queryKey: ["product-count"],
-		queryFn: () => EteAPI.getProductCount(),
-	})
+	const {
+		data: productCount,
+		isLoading,
+		refetch,
+		isRefetching,
+		error,
+	} = apiHooks.useProductCount()
 
 	return (
 		<Card bordered={false}>

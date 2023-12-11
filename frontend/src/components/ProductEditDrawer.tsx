@@ -1,8 +1,7 @@
-import { useState, useEffect } from "react"
-import { App, Button, Col, Drawer, Form, Input, InputNumber, Row, Select, Space } from "antd"
-import EteAPI, { Product } from "../utils/api-utils"
-import { queryClient } from "../main"
-import { useQuery } from "@tanstack/react-query"
+import { useEffect } from "react"
+import { Button, Col, Drawer, Form, Input, InputNumber, Row, Select, Space } from "antd"
+import { Product } from "../utils/api-utils"
+import apiHooks from "../hooks/api-hooks"
 
 
 type Props = {
@@ -13,54 +12,31 @@ type Props = {
 
 export default function ProductEditDrawer({ open, onClose, product }: Props) {
 	const [form] = Form.useForm()
-	const { message } = App.useApp()
-	const [isEditing, setIsEditing] = useState(false)
 
-	const { data, isLoading } = useQuery({
-		queryKey: ["companies"],
-		queryFn: () => EteAPI.getCompanies({}),
+	const {
+		mutate: updateProduct,
+		isPending: isUpdating,
+	} = apiHooks.useUpdateProduct(product?._id ?? "", {
+		onSuccess: () => {
+			form.resetFields()
+			onClose()
+		},
 	})
-
-	const companies = data?.companies
-
-
 	
+	const { data: companyNames, isLoading: isLoadingCompanyNames } = apiHooks.useAllCompanyNames()
+
 	useEffect(() => {
 		if (!product)
 			return
-		const { name, amount, amountUnit, category, company } = product
-		form.setFieldsValue({ name, amount, amountUnit, category, companyId: company._id })
+
+		const { company, ...rest } = product
+		form.setFieldsValue({ company: company._id, ...rest })
 	}, [product, form])
-
-
-
-	const editProduct = async () => {
-		if (!product)
-			return
-		const values = form.getFieldsValue()
-		setIsEditing(true)
-		try {
-			await EteAPI.updateProduct(product._id, values)
-			message.success("Product successfully edited")
-			form.resetFields()
-			queryClient.invalidateQueries({ queryKey: ["products"] })
-			onClose()
-		}
-		catch (err) {
-			if (err instanceof Error)
-				message.error(err.message)
-		}
-		finally {
-			setIsEditing(false)
-		}
+	
+	
+	const update = () => {
+		updateProduct(form.getFieldsValue())
 	}
-
-
-	const cancel = () => {
-		form.resetFields()
-		onClose()
-	}
-
 
 
 	return (
@@ -76,8 +52,12 @@ export default function ProductEditDrawer({ open, onClose, product }: Props) {
         }}
         extra={
           <Space>
-            <Button onClick={cancel}>Cancel</Button>
-            <Button loading={isEditing} onClick={editProduct} type="primary">
+            <Button onClick={onClose}>Cancel</Button>
+            <Button
+							type="primary"
+							loading={isUpdating}
+							onClick={update}
+						>
               Submit
             </Button>
           </Space>
@@ -106,7 +86,7 @@ export default function ProductEditDrawer({ open, onClose, product }: Props) {
 							<Form.Item
 								name="amount"
 								label="Amount"
-								rules={[{ required: true, message: "Please enter the amount" }]}
+								rules={[{ required: true, message: "Please enter the amount", type: "number" }]}
 							>
 								<InputNumber className="w-full" placeholder="Amount" />
 							</Form.Item>
@@ -125,13 +105,13 @@ export default function ProductEditDrawer({ open, onClose, product }: Props) {
 
 					
 					<Form.Item
-						name="companyId"
+						name="company"
 						label="Company"
 						rules={[{ required: true, message: "Please select a company" }]}
 					>
-						<Select loading={isLoading} placeholder="Please select company">
-							{companies?.map(company => (
-								<Select.Option key={company._id} value={company._id}>{company.name}</Select.Option>
+						<Select loading={isLoadingCompanyNames} placeholder="Please select company">
+							{companyNames?.map(({ name, _id }) => (
+								<Select.Option key={_id} value={_id}>{name}</Select.Option>
 							))}
 						</Select>
 					</Form.Item>

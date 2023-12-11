@@ -3,14 +3,18 @@ import EteAPI from "../utils/api-utils"
 import { Button, Card, Flex, List, Spin, Typography } from "antd"
 import dayjs from "dayjs"
 import { ReloadOutlined } from "@ant-design/icons"
+import apiHooks from "../hooks/api-hooks"
 
 
 
 export default function LastlyAddedProductsCard() {
-	const { data, isLoading, refetch, isRefetching, error } = useQuery({
-		queryKey: ["lastly added products"],
-		queryFn: () => EteAPI.getProducts({ sort: "-createdAt", pageSize: 3 }),
-	})
+	const {
+		data,
+		isLoading,
+		refetch,
+		isRefetching,
+		error,
+	} = apiHooks.useProducts({ sort: "-createdAt", pageSize: 3 })
 
 	const lastlyAddedProducts = data?.products
 
