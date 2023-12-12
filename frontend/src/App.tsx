@@ -5,58 +5,38 @@ import CompaniesPage from './pages/CompaniesPage.tsx'
 import ProducstPage from './pages/ProductsPage.tsx'
 import NotFound from './pages/NotFoundPage.tsx'
 import useUser from "./stores/user-store"
-import Header from "./components/Header.tsx"
 import RegisterPage from "./pages/RegisterPage.tsx"
-import { Layout } from "antd"
 import PageSpinner from "./components/PageSpinner.tsx"
 import DevSettingsFloatButton from "./components/DevSettingsFloatButton.tsx"
-
-
-const LogedInRoutes = () => {
-	return (
-		<Routes>
-			<Route path="/" element={<HomePage />} />
-			<Route path="/companies" element={<CompaniesPage />} />
-			<Route path="/products" element={<ProducstPage />} />
-			<Route path="*" element={<NotFound />} />
-		</Routes>
-	)
-}
-
-
-const LogedOutRoutes = () => {
-	return (
-		<Routes>
-			<Route path="/login" element={<LoginPage />} />
-			<Route path="/register" element={<RegisterPage />} />
-			<Route path="*" element={<NotFound redirectTo="/login" />} />
-		</Routes>
-	)
-}
+import LogedInLayout from "./components/LogedInLayout.tsx"
 
 
 
-export default function App() {
-	const { isLogedIn, isCheckingToken } = useUser(s => ({ isLogedIn: s.isLogedIn, isCheckingToken: s.isCheckingToken }))
 
+function App() {
+	const isCheckingToken = useUser(s => s.isCheckingToken)
+	
 	if (isCheckingToken)
 		return <PageSpinner />
-	
-	if (!isLogedIn)
-		return <LogedOutRoutes />
-
 
 	return (
 		<>
 			<DevSettingsFloatButton />
-			<Layout className="h-full">
-				<Layout.Header className="">
-					<Header />
-				</Layout.Header>
-				<Layout.Content>
-					<LogedInRoutes />
-				</Layout.Content>
-			</Layout>
+			<Routes>
+				<Route path="/" element={<LogedInLayout />} >
+					<Route index element={<HomePage />} />
+					<Route path="companies" element={<CompaniesPage />} />
+					<Route path="products" element={<ProducstPage />} />
+				</Route>
+
+				<Route path="/login" element={<LoginPage />} />
+				<Route path="/register" element={<RegisterPage />} />
+				<Route path="*" element={<NotFound />} />
+			</Routes>
 		</>
 	)
 }
+
+
+
+export default App
