@@ -37,23 +37,18 @@ const LogedOutRoutes = () => {
 
 
 export default function App() {
-	const isLogedIn = useUser(s => s.isLogedIn)
-	const isCheckingToken = useUser(s => s.isCheckingToken)
+	const { isLogedIn, isCheckingToken } = useUser(s => ({ isLogedIn: s.isLogedIn, isCheckingToken: s.isCheckingToken }))
 
-	// if (isCheckingToken)
-	// 	return <PageSpinner />
+	if (isCheckingToken)
+		return <PageSpinner />
 	
-	// if (!isLogedIn)
-	// 	return <LogedOutRoutes />
+	if (!isLogedIn)
+		return <LogedOutRoutes />
 
 
 	return (
 		<>
 			<DevSettingsFloatButton />
-		{
-			isCheckingToken ? <PageSpinner /> :
-			!isLogedIn ? <LogedOutRoutes /> :
-
 			<Layout className="h-full">
 				<Layout.Header className="">
 					<Header />
@@ -62,7 +57,6 @@ export default function App() {
 					<LogedInRoutes />
 				</Layout.Content>
 			</Layout>
-		}
 		</>
 	)
 }
